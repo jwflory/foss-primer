@@ -2,18 +2,18 @@
 # Free and Open: A (rough) Primer
 
 
-Most things "open" now refer back to "open source software" and model themselves in some way on the goals and practices of open source software communities. These, in turn started as something of a marketing effort an older cousin, the "free software" movement.
+Most things "open" now refer back to "open source software" and model themselves in some way on the goals and practices of open source software communities. These, in turn started as something of a marketing effort for an older cousin, the "free software" movement.
 
-This is meant for someone who is familiar with daily use of computing devices generally but is not involved in software development.
+This primer is meant for those familiar with daily use of computing devices at home and especially at work, but who generally are not involved in software development.
 
-I've tried to highlight in **bold text** the take-home message of some sections in case one is already familiar with the concepts that section reviews.
+I've tried to highlight in **bold text** the take-home message of some sections in case one is already familiar with most concepts reviewed in that section.
 
 ## Software
 
 So, we'll talk about software for just a little bit. 
  
 These days, most folk have a pretty good conception of what we usually mean by software, but to review:
-We understand that these devices we work with--desktop computers still for some of us, laptop computers for many of us, phones for most of us, but also increasingly many things all around us, like cars and cameras and doorbells--can be made to do different things if we install on them different apps.  
+We understand that these devices we work with--desktop computers still for some of us, laptop computers for many of us, phones for most of us, but also increasingly many things all around us, like cars and speakers and thermostats and doorbells--can be made to do different things if we install on them different apps.  
 These apps, or, slightly less colloquially "applications" are what we mean by software.  Sometimes these apps come pre-instatalled, sometimes we add them from a store.  Mostly, we download apps through network connections.  Occasionally even now, some are installed through a type of removable medium, usually a keychain flash drive.  Some of us remember older forms of installation media like DVD's, CD's, possibly floppy disks or even tapes.
 
 Whatever its manner of distribution, software is the portable, fungible, mutable part in any computing device, the essence of the ability for a computing device
