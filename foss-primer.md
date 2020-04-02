@@ -31,7 +31,7 @@ We write software in any of a large and growing number of artificial languages, 
 Changing the way software works, whether fixing bugs or adding new features, involves (usually still, but with AI not entirely) humans looking at and modifying this source code, then once again transforming this now-changed version into machine-readable binaries.  Again, a hint of the comparison to literature persists, in that we speak of using tools called "editors" to make these changes to the human-readable source. 
 
 
-## Free and open source software
+## Free and open source software communities
 
 We can talk about software, and we can talk about who makes it.  With this distinction in mind, I'll note that there are two distinct movements, one whose adherents prefer to talk about "free software" in which the "free" refers to freedom, not price.  The other movement refers to "open source" and prefers to dwell on what they see as several pragmatic benefits of freedom while assiduously avoiding using the word "freedom" itself.
 
@@ -40,6 +40,8 @@ Though we might talk about these groups of people using different terms, the dig
 **Software is made from source code, so we care who care who can read that source code better to understand what that software does, and who can change that source code to change how the software, and thus all our computing devices, operate.** 
 
 
+## Free and open source software criteria
+
 Software is free and open if it is available to its users under certain criteria. There is broad agreement about these criteria, expressed at more or less length by the Open Source Initiative's (OSI's) Open Source Defintion (OSD), by the Debian project's Free Software Guidelines (DFSG) from which the OSD was first derived, and the Free Software Foundation and GNU Project's four freedoms. I usually summarize these as "the four R's" 
 
   * Run
@@ -47,7 +49,9 @@ Software is free and open if it is available to its users under certain criteria
   * Revise
   * Redistribute
 
-That is to say, free and open source software is **only** considered free and open if those who use it 1) can **use** it for any purpose (run), 2) can inspect or **study** the source code to learn how it works (read), 3) can make any changes they want to the source code in order to **improve** the software for their own purposes (revise) and 4) whether they can **share** either the original (upstream) version of the source code verbatim or their changed (derivative) version to other people (downstream). These criteria have been honed over the past several decades, in the face of various attempts to exploit the work of free and open source software communities by watering them down. These attempts have driven most who embrace these principles to be wary of proposed changes. Expect advocates to insist on all of these criteria and to react coolly, at best, to arguments or suggestions in favor of exceptions or changes. 
+That is to say, free and open source software is **only** considered free and open if those who use it 1) can **use** it for any purpose (run), 2) can inspect or **study** the source code to learn how it works (read), 3) can make any changes they want to the source code in order to **improve** the software for their own purposes (revise) and 4) whether they can **share** either the original (upstream) version of the source code verbatim or their changed (derivative) version to other people (downstream). 
+
+These criteria have been honed over the past several decades, in the face of various attempts to exploit the work of free and open source software communities by watering them down. These attempts have driven most who embrace these principles to be wary of proposed changes. Expect advocates to insist on all of these criteria and to react coolly, at best, to arguments or suggestions in favor of exceptions or changes. 
 
 In a nutshell, we use a single term to talk about the process of taking a project, making a copy, and then working on that copy as if that project were your own. We say that one has the right to make a 'fork' of that project. 
 
@@ -91,33 +95,30 @@ One big thing added to Unix at Berkeley was networking code.  Linux, BSD, and ot
 
 ## Myths
 
-Myth: If you find source code on the Internet without a copyright statement or a license, you can use it however you want.
+### Myth: If you find source code on the Internet without a copyright statement or a license, you can use it however you want.
 
 related Myth: You have to register a work for it to be copyrighted.
 
 related Myth: You have to put a copyright statement or symbol on your source code for it to be copyrighted.
 
-Busted: Creative works are not "born free".  Copyright adheres to creative works as soon as they are fixed in a "tangible" medium.  Computer storage devices count as a tangible medium.  So, as soon as you write a creative work, it is *automatically* copyrighted.  This idea comes from the Berne Convention for the Protection of Literary and Artistic Works, first established at a meeting in Switzerland in the 19th century.  The United States did not join the Berne Convention until a century later, in 1989.  Misconceptions about how copyright works in the US might still be circulating from when they were true, prior to 1989, a time still in living memory for some of us.
+**Busted:** Creative works are not "born free".  Copyright adheres to creative works as soon as they are fixed in a "tangible" medium.  Computer storage devices count as a tangible medium.  So, as soon as you write a creative work, it is *automatically* copyrighted.  This idea comes from the Berne Convention for the Protection of Literary and Artistic Works, first established at a meeting in Switzerland in the 19th century.  The United States did not join the Berne Convention until a century later, in 1989.  Misconceptions about how copyright works in the US might still be circulating from when they were true, prior to 1989, a time still in living memory for some of us.
 
 One only has the freedom to use a work if one has been given a license to use it, either through a contract or a purchase or as a gift from the free and open source software development communities. 
 
 One *can* register the copyright on a work, and one can add a copyright statement to a work to make clear to whom the copyright belongs and the date of the copyright. These efforts can improve one's position in the event of a dispute, but they are not necessary for basic copyright restrictions to come into being.
 
-Myth: Open source is "free" which means you can't make money with it.
 
-Busted: The biggest tech companies--scratch that, the biggest companies, full stop--all use free and open source software to make money.
+### Myth: Open source is "free" which means you can't make money with it.
+
+**Busted:** The biggest tech companies--scratch that, the biggest companies, full stop--all use free and open source software to make money.
 
 One misunderstanding at the root of this myth is that software is always made to be sold.  This is true for some software, but not all of it.  A great deal of software written is written for various forms of "in house" use and is never sold, as such, and certainly never as a standalone retail product. Entirely different considerations apply to the production and use of in-house software than for retail software. In house software typically performs functions common to a business sector or to running a business more generally that it is not a competitive differentiator. Rather than being a revenue center, most software lives in cost centers. Minimizing the cost of producing, deploying and maintaining that software come to the forefront. Being able to share the production and maintenance burden with other organizations becomes a huge win for in-house software. This shared effort is widely facilitated by free and open approaches. 
 
 
-Myth: Free and open source software is poor quality. 
+### Myth: Free and open source software is poor quality. 
 
-Busted: Sturgeon's Law--90% of everything is crap--applies.  A great many one-off projects, either experiments or toys or abandoned student projects, are increasingly available given how easy and cheap it is to share code.  This sort of software always was written, but now more people are writing it, and more of what people write is visible.  The advantage of this great diversity is that it makes room for experimental or niche applications that might otherwise never have been developed, or never have found an audience.  Not every piece of software has to be a slickly-produced mass-makret
+**Busted:** Sturgeon's Law--90% of everything is crap--applies.  A great many one-off projects, either experiments or toys or abandoned student projects, are increasingly available given how easy and cheap it is to share code.  This sort of software always was written, but now more people are writing it, and more of what people write is visible.  The advantage of this great diversity is that it makes room for experimental or niche applications that might otherwise never have been developed, or never have found an audience.  Not every piece of software has to be a slickly-produced mass-makret
 best-seller to have value to someone.
 
 Beyond that, though, are best in class pieces of software like the Linux kernel, the Apache or nginx web servers, a vast array of programming languages and tools, and so much more.  Very often the FOSS packages available merely work differently from their non-free alternatives, even if they work just as well, or represent a different set of design trade-offs.  These differences may read to someone invested in a non-free tool as deficits even if the free software is cheaper and more flexible to use and deploy. This bias against the free tool becomes more pronounced when the costs of negotiating license agreements for the proprietary software are hidden from or subsidized for the end user (cf, systems of centrally-administered site licenses and educational loss-leader type discounts). 
-
-
-
-
 
