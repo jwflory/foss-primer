@@ -26,7 +26,7 @@ to be customized in nearly limitless variety.
 
 At a place like RIT, many of us understand that this software needs to be made by someone, known variously by the terms "programmer" or "coder" or maybe "software engineer" or "developer".  There's a lot that goes into making software, but at the most fundamental level, we talk about writing software.  We talk about writing it as we might talk about writing a poem or a play or a novel.  Writing software is a craft that has to be learned and practiced.  It can be art.  Like other art, its pursuit can invoke passion in the truest sense of the word, driving those who seek to cross the gulf between conception and realization variously through cycles of suffering and exultation, through despair, awe, wonder, delight.
 
-We write software in any of a large and growing number of artificial languages, programming languages.  The form of software that people can read and write is the "source" (or more fully, the "source code" to which "open source" refers) written in one of these languages.  Once written, source code is transformed in various ways into something computers can read and act upon.  This transformed version is sometimes referred to as "machine code" or "object code" or often just as the "binary" or "binaries".
+We write software in any of a large and growing number of artificial languages, programming languages. **The form of software that people can read and write is the "source"** (or more fully, the "source code" to which "open source" refers) written in one of these languages.  Once written, source code is transformed in various ways into something computers can read and act upon.  This transformed version is sometimes referred to as "machine code" or "object code" or often just as the "binary" or "binaries".
   
 Changing the way software works, whether fixing bugs or adding new features, involves (usually still, but with AI not entirely) humans looking at and modifying this source code, then once again transforming this now-changed version into machine-readable binaries.  Again, a hint of the comparison to literature persists, in that we speak of using tools called "editors" to make these changes to the human-readable source. 
 
@@ -67,7 +67,7 @@ take the form either of contracts or licenses.
 
 As an expedient, we'll use copyright as an example. It is the oldest and clearest example of how intellectual property laws--and the agreements made under those laws--shape the rise and spread of free and open approaches.
 
-**Intellectual property law sharply restricts who can access source code and what they can do with it. So, we care aboutlicense agreementst that allow us to work more freely and in the open.** 
+**Intellectual property law sharply restricts, by default, who can access source code and what they can do with it. So, we care about license agreements that dramatically ease the path towards working more freely and in the open.** 
 
 ## IP comes to software
 
