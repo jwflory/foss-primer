@@ -130,3 +130,5 @@ Beyond that, though, are best-in-class pieces of software like the Linux kernel,
 
 Further, when a piece of free and open source software has a proprietary counterpart, users of that proprietary counterpart benefit because the free and open source software program at the very least functions as a substitution good. These FOSS programs offer a concrete comparison against which to evaluate their proprietary counterparts. When the FOSS software is technically better, it offers an aspirational goal for the proprietary program's developers and users. Even if the FOSS program is less functional, it still may provide a real-world tether on the price for getting licenses for the proprietary program and a floor below which the proprietary program's functionality should not drop.
 
+© 2020 by **D. Joe Anderson**. *This document is licensed for use by others under the [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)*
+
