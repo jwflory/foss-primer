@@ -2,7 +2,7 @@
 # Free and Open: A (rough) Primer
 
 
-Most things "open" now refer back to "open source software" and model themselves in some way on the goals and practices of open source software communities. These, in turn started as something of a marketing effort for an older cousin, the "free software" movement.
+Most things *open* now refer back to *open source software* and model themselves in some way on the goals and practices of open source software communities. These, in turn started as something of a marketing effort for an older cousin, the *free software* movement.
 
 This primer is meant for those familiar with daily use of computing devices at home and especially at work, but who generally are not involved in software development.
 
@@ -14,9 +14,10 @@ So, we'll talk about software for just a little bit.
  
 These days, most folk have a pretty good conception of what we usually mean by software, but to review:
 We understand that these devices we work with--desktop computers still for some of us, laptop computers for many of us, phones for most of us, but also increasingly many things all around us, like cars and speakers and thermostats and doorbells--can be made to do different things if we install on them different apps.  
-These apps--or slightly less colloquially, *applications*--are what we mean by software.  Sometimes these apps come pre-installed, sometimes we add them from a store.  Mostly, we download apps through network connections.  Occasionally even now, some are installed through a type of removable medium, usually a keychain flash drive.  Some of us remember older forms of installation media like DVD's, CD's, possibly floppy disks or even tapes.
 
-Whatever its manner of distribution, software is the portable, fungible, mutable part in any computing device, the essence of the ability for a computing device to be customized in nearly limitless variety. 
+These apps--or slightly less colloquially, *applications*--are what we mean by software.  Sometimes these apps come pre-installed, and sometimes we can apply fixes or upgrades from the manufacturer. Sometimes we add apps from a store. Mostly, we download apps and their upgrades through network connections.  Occasionally even now, some are installed through a type of removable medium, usually a keychain flash drive.  Some of us remember older forms of installation media like DVD's, CD's, possibly floppy disks or even tapes.
+
+Whatever its manner of distribution, software is the portable, fungible, mutable part in any computing device, and make manifest the essential ability of a computing device to be customized in nearly limitless variety. 
 
 **The broad and growing spread of computing devices into so many aspects of our lives is one big reason we care how software is made.**
 
@@ -41,7 +42,7 @@ Though we might talk about these groups of people using different terms, the dig
 
 ## Free and open source software criteria
 
-Software is free and open if it is available to its users under certain criteria. There is broad agreement about these criteria, expressed at more or less length by the Open Source Initiative's (OSI's) Open Source Defintion (OSD), by the Debian project's Free Software Guidelines (DFSG) from which the OSD was first derived, and the Free Software Foundation and GNU Project's four freedoms. I usually summarize these as "the four R's" 
+Software is free and open if it is available to its users under certain criteria. There is broad agreement about these criteria, expressed at more or less length by the Open Source Initiative's (OSI's) Open Source Defintion (OSD), by the Debian project's Free Software Guidelines (DFSG) from which the OSD was first derived, and the Free Software Foundation and GNU Project's four freedoms. I usually summarize these as *the four R's* 
 
   * Run
   * Read
@@ -58,7 +59,7 @@ In a nutshell, we use a single term to talk about the process of taking a projec
 
 ## Intellectual property
 
-Some free software activists point out that the term "intellectual property" (IP) covers a range of legal concepts that are in many important ways different from each other.  Out of concern that using this one term for disparate areas might (or worse, might intentionally) cause confusion, they discourage use of the phrase.  I use it because the term has such wide currency, and because most of the concepts involved do have similarities important to this discussion.  Various terms lumped together under IP include copyright, trademark, patents, and trade secrets.
+Some free software activists point out that the term *intellectual property* (IP) covers a range of legal concepts that are in many important ways different from each other.  Out of concern that using this one term for disparate areas might (or worse, might intentionally) cause confusion, they discourage use of the phrase.  I use it because the term has such wide currency, and because most of the concepts involved do have similarities important to this discussion.  Various terms lumped together under IP include copyright, trademark, patents, and trade secrets.
 
 What ties them together is the idea that they secure, in some fashion and to some degree, exclusive access to an intangible good, increasingly these days manifested either partially or wholly in digital form.  The law has various ways of granting exclusive access to IP's creators.  Those creators then
 have various avenues through which they can arrange to pass along, either in whole or in part and often for a fee, that access.  These arrangements often
@@ -82,13 +83,13 @@ Meanwhile, at Berkeley, enthusiasts had gotten access to what was at the time il
 
 ## Free and Open Source software emerges
 
-Once the Bell System breakup removed blockers to commercialization for AT&T Unix, AT&T did in fact try to commercialize Unix often by licensing it to workstation manufacturers like HP, IBM, and Sun, leading to the so-called Unix Wars of the 1980s and to lawsuits over what people could do with the code that had passed through Berkeley. 
+Once the Bell System breakup removed blockers to commercialization for AT&T Unix, AT&T did in fact try to commercialize Unix--often by licensing it to workstation manufacturers like HP, IBM, and Sun--leading to the so-called Unix Wars of the 1980s and to lawsuits over what people could do with the code that had passed through Berkeley. 
 
-Eventually, all the code AT&T had supplied had been removed from the collection of software the people at Berkeley had been working on, and the resulting operating system, known as the Berkeley Software Distributing (BSD), lives on as FreeBSD, NetBSD, OpenBSD, DragonflyBSD and so on. Like Linux, the BSDs often find use in small embedded systems.
+Eventually, the Unix Wars and the lawsuits pretty much died down, all the code AT&T had supplied had been removed from the collection of software the people at Berkeley had been working on. The resulting operating system, known as the Berkeley Software Distributing (BSD), lives on in projects like FreeBSD, NetBSD, OpenBSD, DragonflyBSD and so on. Like Linux, the BSDs often find use in small embedded systems.
 
 In parallel to the emergence of BSD as free software, other projects, like the GNU Project and the Linux kernel project were independently re-implementing pieces of a Unix-like operating system, released under a family of licenses known as the GNU General Public Licenses (GPLs).
 
-One big thing added to Unix at Berkeley was networking code.  Linux, BSD, and other free and open source software grew massively with the rise of computer networking in the mid 1990s due to how flexibly they could be adapted and deployed.  One of the very early Internet-age IPOs was that of web-browser maker Netscape.  Soon, though, Netscape foundered on the shoals of Microsoft's late but aggressive entry into browsers, leading in turn to anti-trust cases against Microsoft and to Netscape throwing the IP shackles off their browser by announcing the availability of their browsers source code under free software licensing terms.  Netscape's move quickly prompted discussion as to how to bring the benefits of software freedom to businesses without ensnaring discussions over the ambiguities in the English word *free*.  Christine Peterson came up with the idea of calling software licensed this way "open source software".  When the term was introduced in a meeting shortly after Netscape's announcement, it was adopted and began to spread rapidly.  The dominant computer companies of today were either founded, or pivoted towards their current networking-dominant forms, over the successive decade.  
+One big thing added to Unix at Berkeley was networking code.  Linux, BSD, and other free and open source software grew massively with the rise of computer networking in the mid 1990s due to how flexibly they could be adapted and deployed.  One of the very early Internet-age IPOs was that of web-browser maker Netscape.  Soon, though, Netscape foundered on the shoals of Microsoft's late but aggressive entry into browsers, leading in turn to anti-trust cases against Microsoft and to Netscape throwing the IP shackles off their browser by announcing the availability of their browsers source code under free software licensing terms.  Netscape's move quickly prompted discussion as to how to bring the benefits of software freedom to businesses without ensnaring discussions over the ambiguities in the English word *free*.  Christine Peterson came up with the idea of calling software licensed this way *open source software*.  When the term was introduced in a meeting shortly after Netscape's announcement, it was adopted and began to spread rapidly.  The dominant computer companies of today were either founded, or pivoted towards their current networking-dominant forms, over the successive decade.  
 
 
 
